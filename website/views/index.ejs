@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+<form action="/submit" method="post">
+  <input required type="username" name="username" placeholder="Your LOL username"/>
+  <input required type="region" name="region" placeholder="Enter your region"/>
+  <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
