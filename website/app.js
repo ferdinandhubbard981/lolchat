@@ -26,7 +26,7 @@ app.post("/submit", function (req, res, next) {
     mode: 'text',
     pythonPath: '/usr/bin/python',
     pythonOptions: ['-u'], // get print results in real-time
-    scriptPath: '/root/lolchat',
+    scriptPath: '/root/lolchat/website',
     args: [req.body.username, req.body.region]
   };
 
